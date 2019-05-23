@@ -2,7 +2,8 @@
   "name": "air-antarctica",
   "scripts": {
     "dev": "webpack-dev-server --env.mode development --colors",
-    "build": "webpack --env.mode production"
+    "build": "webpack --env.mode production",
+    "serve": "http-server dist -c0 -p 8000"
   },
   "author": "Jad Joubran",
   "license": "UNLICENSED",

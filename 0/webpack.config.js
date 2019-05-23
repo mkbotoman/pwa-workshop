@@ -21,7 +21,7 @@ module.exports = env => {
       new HtmlWebpackPlugin({
         template: "./index.html",
         minify: { collapseWhitespace: true, removeComments: true },
-        inject: false
+        inject: true
       }),
       new CopyPlugin([
         { from: "src/assets/", to: "assets/", ignore: [".DS_Store"] }
